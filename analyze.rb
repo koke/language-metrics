@@ -14,7 +14,7 @@ rescue
   puts "Coulnd't find a git repository at #{ARGV.first}"
   exit 2
 end
-versions = repo.tags.each_name.sort.grep(/^\d+\.\d+(\.\d+)?$/)
+versions = repo.tags.each_name.sort.grep(/^v?\d+\.\d+(\.\d+)?$/)
 
 prev_commit = nil
 prev_data = nil
