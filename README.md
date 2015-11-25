@@ -9,7 +9,8 @@ The output will be a CSV of each tag with date and line count per language.
 
 Note that it ignores tags that look like an alpha/beta release.
 
-```./analyze.rb ~/code/wordpress-ios 
+```
+./analyze.rb ~/code/wordpress-ios 
 Version,Date,Objective-C,C++,HTML,C,Python,Shell,Ruby,JavaScript,PHP,Swift
 1.0,2008-07-24,347600,791,2885,0,0,0,0,0,0,0
 1.1,2008-07-31,349615,735,2860,0,0,0,0,0,0,0
